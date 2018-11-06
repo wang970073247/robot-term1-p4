@@ -11,6 +11,9 @@ The purpose of this project is to train a deep neural network to identify and tr
 
 ### Concepts
 
+#### Convolutional Neural Network
+
+Convolutional Neural Networks (CNNs) are often used in imaging-related applications since the convolution layers emulate the way visual cortex of humans processes vision - by extracting information from local regions. By stacking convolution layers, we attempt to extract higher and higher level of information from the given image - edges/curves, then shapes, etc.. Max pooling layers (and other variations) are also used to improve performance by avoiding overfitting. But the traditional CNN architecture lacks the ability of determining positions in objects in the images.In particular, the Fully-Connected Layers, usually placed at the end of the network, remove spatial information that is essential for locating objects.
 
 #### Fully Convolutional Network
 
